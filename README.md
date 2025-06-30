@@ -1,8 +1,19 @@
-# React + Vite
+# 🎶 React Music App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive and interactive music player app built using **React** and **Vite**. The app allows users to create playlists, add or remove songs, and enjoy a clean, dynamic UI. It demonstrates the use of React's Context API, state management, and API integration for real-time song handling.
 
-Currently, two official plugins are available:
+## ✨ Features
+- 🎧 Create, rename, and delete playlists
+- 🎵 Add and remove songs from playlists
+- 🔎 Search for songs
+- 🧠 State management using Context API
+- 💅 Stylish UI with React Icons and CSS
+- ⚡ Fast development setup using Vite
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔧 Tech Stack
+- React (Vite)
+- Context API
+- JSON Server (for mock data)
+- Axios (for API requests)
+- React Icons
+- CSS / Flexbox
