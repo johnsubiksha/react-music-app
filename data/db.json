@@ -1,0 +1,159 @@
+{
+  "music": [
+    {
+      "id": "1",
+      "title": "Suttum Vizhi",
+      "url": "audio/song1.mp3",
+      "image": "images/image1.jpg",
+      "playLists": [],
+      "album": "(from Ghajini)",
+      "duration": 5.38,
+      "recentlyPlayed": true
+    },
+    {
+      "id": "2",
+      "title": "Theeyae Theeyae",
+      "url": "audio/song2.mp3",
+      "image": "images/image2.jpg",
+      "playLists": [],
+      "album": "(from Maattrraan)",
+      "duration": 5.38,
+      "recentlyPlayed": true
+    },
+    {
+      "id": "3",
+      "title": "Venmathi Venmathi",
+      "url": "audio/song3.mp3",
+      "image": "images/image3.jpg",
+      "playLists": [],
+      "album": "(from Minnale)",
+      "duration": 5.8,
+      "recentlyPlayed": true
+    },
+    {
+      "id": "4",
+      "title": "Kadhal Aasai",
+      "url": "audio/song4.mp3",
+      "image": "images/image4.jpg",
+      "playLists": [
+        "2"
+      ],
+      "album": "(from Anjaan)",
+      "duration": 5.06,
+      "recentlyPlayed": true
+    },
+    {
+      "id": "5",
+      "title": "Kissik Kissik",
+      "url": "audio/song5.mp3",
+      "image": "images/image5.jpg",
+      "playLists": [
+        "1",
+        "2"
+      ],
+      "album": "(from Pushpa 2)",
+      "duration": 4.12,
+      "recentlyPlayed": false
+    },
+    {
+      "id": "6",
+      "title": "Hey minnalae",
+      "url": "audio/song6.mp3",
+      "image": "images/image6.jpg",
+      "playLists": [
+        "1"
+      ],
+      "album": "(from Amaran)",
+      "duration": 4.6,
+      "recentlyPlayed": false
+    },
+    {
+      "id": "7",
+      "title": "Madura Veeran",
+      "url": "audio/song7.mp3",
+      "image": "images/image7.jpg",
+      "playLists": [
+        "1"
+      ],
+      "album": "(from Viruman)",
+      "duration": 3.48,
+      "recentlyPlayed": false
+    },
+    {
+      "id": "8",
+      "title": "Vaa Vaathi",
+      "url": "audio/song8.mp3",
+      "image": "images/image8.jpg",
+      "playLists": [],
+      "album": "(from Vaathi)",
+      "duration": 3.14,
+      "recentlyPlayed": false
+    },
+    {
+      "id": "9",
+      "title": "Adi Penne",
+      "url": "audio/song9.mp3",
+      "image": "images/image9.jpg",
+      "playLists": [],
+      "album": "(from Stephen...)",
+      "duration": 5,
+      "recentlyPlayed": false
+    },
+    {
+      "id": "10",
+      "title": "Police Kaarana",
+      "url": "audio/song10.mp3",
+      "image": "images/image10.jpg",
+      "playLists": [
+        "2"
+      ],
+      "album": "(from JollyO Gymkhana)",
+      "duration": 3.46,
+      "recentlyPlayed": false
+    },
+    {
+      "id": "11",
+      "title": "Adi Poli",
+      "url": "audio/song11.mp3",
+      "image": "images/image11.jpg",
+      "playLists": [
+        "1"
+      ],
+      "album": "(siddhu Kumar)",
+      "duration": 5,
+      "recentlyPlayed": false
+    },
+    {
+      "id": "12",
+      "title": "Katchi Sera",
+      "url": "audio/song12.mp3",
+      "image": "images/image12.jpg",
+      "playLists": [
+        "1"
+      ],
+      "album": "(from Sai Abhyankkar)",
+      "duration": 3.23,
+      "recentlyPlayed": false
+    },
+    {
+      "id": "13",
+      "title": "Chill Bro",
+      "url": "audio/song13.mp3",
+      "image": "images/image13.jpg",
+      "playLists": [],
+      "album": "(from pattas)",
+      "duration": 3.55,
+      "recentlyPlayed": false
+    }
+  ],
+  "playlists": [
+    {
+      "id": "1",
+      "name": "Trending"
+    },
+    {
+      "id": "2",
+      "name": "Mass hit"
+    }
+  ]
+}

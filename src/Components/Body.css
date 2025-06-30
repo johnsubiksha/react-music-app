@@ -1,0 +1,93 @@
+.body {
+  width: 85%;
+  height: 71vh;
+  margin-left: 180px;
+  background-color: #263c2e;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  overflow-y: auto;
+}
+
+.body h2 {
+  background-color: #263c2e;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.body::-webkit-scrollbar {
+  display: none;
+}
+
+.body ul {
+  background-color: #263c2e;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  justify-content: center;
+}
+
+.body ul li {
+  background-color: #263c2e;
+  margin-bottom: 20px;
+  text-align: center;
+  flex: 1 1 calc(25% - 20px);
+  position: relative;
+}
+
+.body ul li h3 {
+  background-color: #263c2e;
+  color: white;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.body ul li h2 {
+  font-size: 14px;
+}
+
+.body ul li img {
+
+  width: 150px;
+  height: 150px;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.body ul li img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.body ul li:hover .play-button {
+  opacity: 1;
+}
+
+.body .no-music {
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.body ul li .play-button {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: black;
+  color: rgb(30, 149, 42);
+  font-size: 30px;
+  border-radius: 50%;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 1;
+  width: 45px;
+  height: 45px;
+  overflow: hidden;
+}

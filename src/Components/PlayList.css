@@ -1,0 +1,204 @@
+.playlist-container {
+  width: 85%;
+  height: 71vh;
+  margin-left: 180px;
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+  background: linear-gradient(to top, #222020, #1c793d);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  overflow-y: auto;
+  overflow-x: hidden;
+
+}
+
+.playlist-container::-webkit-scrollbar {
+  display: none;
+  /* For Chrome, Safari, and Edge */
+}
+
+.playlist-header {
+  text-align: center;
+  margin-bottom: 10px;
+  height: 20%;
+  overflow: hidden;
+
+}
+
+.playlist-header .add-music {
+  width: 60%;
+  height: 35%;
+  margin-left: 60%;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 10px;
+
+}
+
+.playlist-header h1 {
+  margin-bottom: 10px;
+}
+
+
+
+.playlist-main-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #1db954;
+  padding-top: 5px;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+}
+
+.playlist-subtitle {
+  font-size: 16px;
+  color: #b3b3b3;
+}
+
+
+.playlist-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.playlist-table th,
+.playlist-table td {
+  text-align: left;
+  padding: 10px;
+  width: auto;
+  background-color: #263c2e;
+  color: #b3b3b3;
+}
+
+.playlist-table th {
+  background-color: #2a2a2a;
+  /* Darker header for better differentiation */
+  color: #ffffff;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+
+.song-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #263c2e;
+}
+
+.song-row {
+  transition: background-color 0.3s ease;
+}
+
+
+.song-row:hover .song-info {
+  background-color: #626563;
+
+}
+
+.song-row:hover .song-info span {
+  background-color: #626563;
+
+}
+
+.song-row:hover td {
+  background-color: #626563;
+
+}
+
+.song-info span {
+  background-color: #263c2e;
+}
+
+
+.song-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  object-fit: cover;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  /* Added shadow for a modern look */
+}
+
+.no-songs-message {
+  color: #b3b3b3;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 18px;
+  /* Slightly increased font size for visibility */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .playlist-container {
+    width: 90%;
+    /* Adjusted width for smaller screens */
+    height: auto;
+    /* Allow height to adjust dynamically */
+    padding: 15px;
+  }
+
+  .playlist-main-title {
+    font-size: 24px;
+  }
+
+  .playlist-subtitle {
+    font-size: 14px;
+  }
+
+  .playlist-table th,
+  .playlist-table td {
+    padding: 8px;
+  }
+
+  .song-image {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+.search-box {
+  width: 98%;
+  padding: 10px;
+  background-color: #1e1e1e;
+}
+
+.search-box input {
+  width: 98%;
+  padding: 8px;
+
+}
+
+.search-results {
+  overflow: hidden;
+  width: 99%;
+  height: 70vh;
+
+}
+
+.search-result {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 5px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.cancel-button {
+  background-color: #721717;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.box-head {
+  display: flex;
+}
+
+.remove-button {
+  cursor: pointer;
+  background-color: #721717;
+}

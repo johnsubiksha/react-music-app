@@ -1,0 +1,107 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 10%;
+  height: 74vh;
+  margin-top: 58px;
+  margin-left: 5px;
+  background-color: #263c2e;
+  color: white;
+  overflow: hidden;
+  padding-top: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.sidebar-head {
+  display: flex;
+  background-color: #263c2e;
+}
+
+.sidebar-head .plus {
+  background-color: #263c2e;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.sidebar-head h3 {
+  padding-left: 15px;
+  font-size: 24px;
+  background-color: #263c2e;
+}
+
+.sidebar ul {
+  margin-top: 20px;
+  background-color: #263c2e;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  row-gap: 15px;
+  padding-left: 0;
+}
+
+.sidebar button {
+  background-color: #263c2e;
+  border: none;
+  color: white;
+  font-size: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.3s ease;
+}
+
+.sidebar ul li:hover,
+.sidebar ul li:hover button {
+  background-color: #626563;
+}
+
+.sidebar ul li:hover .rename {
+  background-color: #626563;
+}
+
+.sidebar ul li:hover .delete {
+  background-color: #626563;
+}
+
+
+.sidebar ul li {
+
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  background-color: #263c2e;
+}
+
+.playlist {
+  display: flex;
+  column-gap: 0px;
+}
+
+.rename {
+  background-color: #263c2e;
+  margin-top: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.rename-input {
+  width: 100%;
+  font-size: 16px;
+  padding: 8px 4px;
+  margin: 2px 0;
+  background-color: #374c3b;
+  color: white;
+}
+
+.rename-input:focus {
+  background-color: #626563;
+}
+
+.delete {
+  background-color: #263c2e;
+  margin-top: 15px;
+  transition: background-color 0.3s ease;
+
+}
